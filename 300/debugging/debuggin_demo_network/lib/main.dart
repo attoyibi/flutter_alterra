@@ -1,5 +1,6 @@
 import 'package:debugging_demo/screens/profile_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 import 'screens/detail_screen.dart';
 import 'screens/home_screen.dart';
@@ -7,7 +8,7 @@ import 'screens/home_screen.dart';
 void main() {
   // debugPaintSizeEnabled = true;
   // debugPaintBaselinesEnabled = true;
-  // debugPaintLayerBordersEnabled = true;
+  debugPaintLayerBordersEnabled = true;
   runApp(const MyApp());
 }
 
